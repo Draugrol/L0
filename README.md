@@ -1,5 +1,7 @@
 # Order Service - Демонстрационный сервис заказов
 
+ДЕМО - https://disk.yandex.ru/i/LjJ8g5FNEyKPwg
+
 Микросервис для обработки и отображения данных о заказах с использованием PostgreSQL, NATS Streaming и in-memory кэширования.
 
 ## Возможности
@@ -126,7 +128,6 @@ curl http://localhost:8080/api/orders/b563feb7b2b84b6test1
 ```bash
 curl http://localhost:8080/api/stats
 ```
-ДЕМО - Демо.mp4[here](./Демо.mp4)
 
 ### GET /
 Веб-интерфейс для просмотра заказов
